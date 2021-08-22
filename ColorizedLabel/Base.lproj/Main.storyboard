@@ -26,8 +26,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2qo-rb-qEd">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.29999999999999999" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2qo-rb-qEd">
                                 <rect key="frame" x="130" y="220" width="176" height="31"/>
+                                <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
                                 <connections>
                                     <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="Sje-Q0-UdN"/>
                                 </connections>
@@ -52,7 +53,9 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="y9c-dC-J0L">
                                 <rect key="frame" x="130" y="275" width="176" height="31"/>
+                                <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                 <connections>
+                                    <action selector="greenSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="Llh-gg-kng"/>
                                     <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="xpA-L4-Tcv"/>
                                 </connections>
                             </slider>
@@ -68,9 +71,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="InP-77-X9t">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.69999999999999996" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="InP-77-X9t">
                                 <rect key="frame" x="130" y="330" width="176" height="31"/>
+                                <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
                                 <connections>
+                                    <action selector="blueSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="at2-Kk-UYb"/>
                                     <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="Inp-Td-7UQ"/>
                                 </connections>
                             </slider>
@@ -121,6 +126,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="blueColorSlider" destination="InP-77-X9t" id="uyv-mF-c2N"/>
+                        <outlet property="blueColorValue" destination="nas-SM-hd1" id="enG-5N-ge2"/>
+                        <outlet property="greenColorSlider" destination="y9c-dC-J0L" id="vnh-XZ-GK9"/>
+                        <outlet property="greenColorValue" destination="aj8-Ld-Iew" id="zlC-gs-otI"/>
                         <outlet property="mainView" destination="56d-TR-zg6" id="3vE-gB-Jrf"/>
                         <outlet property="redColorSlider" destination="2qo-rb-qEd" id="hEP-TF-2Ez"/>
                         <outlet property="redColorValue" destination="u1b-xA-hlO" id="zg4-DD-1qs"/>
@@ -135,8 +144,17 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

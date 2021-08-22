@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5383C07D26D2A03700AD698E /* ColorizedLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5383C07D26D2A03700AD698E /* ColorizedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5383C08026D2A03700AD698E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5383C08226D2A03700AD698E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5383C08426D2A03700AD698E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		5383C07E26D2A03700AD698E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5383C07D26D2A03700AD698E /* ColorizedLabel.app */,
+				5383C07D26D2A03700AD698E /* ColorizedView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5383C07C26D2A03700AD698E /* ColorizedLabel */ = {
+		5383C07C26D2A03700AD698E /* ColorizedView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5383C09126D2A03800AD698E /* Build configuration list for PBXNativeTarget "ColorizedLabel" */;
+			buildConfigurationList = 5383C09126D2A03800AD698E /* Build configuration list for PBXNativeTarget "ColorizedView" */;
 			buildPhases = (
 				5383C07926D2A03700AD698E /* Sources */,
 				5383C07A26D2A03700AD698E /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ColorizedLabel;
+			name = ColorizedView;
 			productName = ColorizedLabel;
-			productReference = 5383C07D26D2A03700AD698E /* ColorizedLabel.app */;
+			productReference = 5383C07D26D2A03700AD698E /* ColorizedView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5383C07826D2A03700AD698E /* Build configuration list for PBXProject "ColorizedLabel" */;
+			buildConfigurationList = 5383C07826D2A03700AD698E /* Build configuration list for PBXProject "ColorizedView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5383C07C26D2A03700AD698E /* ColorizedLabel */,
+				5383C07C26D2A03700AD698E /* ColorizedView */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YaroslavBoyko.ColorizedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,14 +315,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = YaroslavBoyko.ColorizedLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5383C07826D2A03700AD698E /* Build configuration list for PBXProject "ColorizedLabel" */ = {
+		5383C07826D2A03700AD698E /* Build configuration list for PBXProject "ColorizedView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5383C08F26D2A03800AD698E /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5383C09126D2A03800AD698E /* Build configuration list for PBXNativeTarget "ColorizedLabel" */ = {
+		5383C09126D2A03800AD698E /* Build configuration list for PBXNativeTarget "ColorizedView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5383C09226D2A03800AD698E /* Debug */,
